@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cifrado</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Cifrado</h2>
+    <label>
+      Texto Original:
+      <input type="text" id="originalText" />
+    </label>
+    <label>
+      Desplazamiento:
+      <input type="number" id="shiftAmount" />
+    </label>
+    <button onclick="encrypt()">Encriptar</button>
+    <button onclick="decrypt()">Desencriptar</button>
+    <div>
+      <strong>Texto Encriptado/Desencriptado:</strong>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
